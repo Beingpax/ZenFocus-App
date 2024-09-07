@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>ZenFocus Updates</title>
+        <description>Most recent changes with links to updates.</description>
+        <language>en</language>
+        <item>
+            <title>Version 1.0.1</title>
+            <description>
+                <![CDATA[
+                    <h2>New Features:</h2>
+                    <ul>
+                        <li>Added auto-update functionality</li>
+                        <li>Improved task management</li>
+                    </ul>
+                    <h2>Bug Fixes:</h2>
+                    <ul>
+                        <li>Fixed an issue with progress tracking</li>
+                        <li>Resolved minor UI glitches</li>
+                    </ul>
+                ]]>
+            </description>
+            <pubDate>Wed, 09 Aug 2023 12:00:00 +0000</pubDate>
+            <enclosure url="https://your-download-url.com/ZenFocus-1.0.1.zip"
+                       sparkle:version="1.0.1"
+                       sparkle:shortVersionString="1.0.1"
+                       length="1234567"
+                       type="application/octet-stream"
+                       sparkle:edSignature="your_generated_signature_here" />
+        </item>
+    </channel>
+</rss>
