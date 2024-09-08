@@ -22,8 +22,8 @@
             </description>
             <pubDate>Wed, 09 Aug 2023 12:00:00 +0000</pubDate>
             <enclosure url="https://github.com/Beingpax/ZenFocus-App/releases/download/new/1Focus.dmg"
-                       sparkle:version="1.0.1"
-                       sparkle:shortVersionString="1.0.1"
+                       sparkle:version="0.1"
+                       sparkle:shortVersionString="0.1"
                        length="1234567"
                        type="application/octet-stream"
                        sparkle:edSignature="your_generated_signature_here" />
