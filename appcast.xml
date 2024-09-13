@@ -1,32 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
-        <title>ZenFocus Updates</title>
-        <description>Most recent changes with links to updates.</description>
-        <language>en</language>
+        <title>ZenFocus</title>
         <item>
-            <title>Version 1.0.2</title>
-            <description>
-                <![CDATA[
-                    <h2>New Features:</h2>
-                    <ul>
-                        <li>Added auto-update functionality</li>
-                        <li>Improved task management</li>
-                    </ul>
-                    <h2>Bug Fixes:</h2>
-                    <ul>
-                        <li>Fixed an issue with progress tracking</li>
-                        <li>Resolved minor UI glitches</li>
-                    </ul>
-                ]]>
-            </description>
-            <pubDate>Wed, 09 Aug 2023 12:00:00 +0000</pubDate>
-            <enclosure url="https://github.com/Beingpax/ZenFocus-App/releases/download/new/1Focus.dmg"
-                       sparkle:version="0.1"
-                       sparkle:shortVersionString="0.1"
-                       length="1234567"
-                       type="application/octet-stream"
-                       sparkle:edSignature="your_generated_signature_here" />
+            <title>0.1.1</title>
+            <pubDate>Fri, 13 Sep 2024 09:46:34 +0545</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/Beingpax/ZenFocus-App/releases/download/zenfocus/ZenFocus.dmg" length="3329113" type="application/octet-stream" sparkle:edSignature="/g+RmdNg2yz2DmFxP1povM2B2gkX/xvONYiRdciBxftSLVLMhu+j6/JbCtUvBSkPncrNL9BGhPyoyMt9IbT+Ag=="/>
+            <sparkle:releaseNotes>
+                <section>
+                    <title>Bug Fixes</title>
+                    <text>
+                        Fixed issues:
+                        <ul>
+                            <li>App now opens correctly after starting a focused session</li>
+                            <li>Progress view updates correctly after completing a task</li>
+                            <li>Task completion from task row now updates the focused task view</li>
+                        </ul>
+                    </text>
+                </section>
+            </sparkle:releaseNotes>
         </item>
     </channel>
 </rss>
