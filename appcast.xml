@@ -8,7 +8,7 @@
             <sparkle:version>2</sparkle:version>
             <sparkle:shortVersionString>0.1.11</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/Beingpax/ZenFocus-App/releases/download/zenfocus/ZenFocus.dmg" length="3329113" type="application/octet-stream" sparkle:edSignature="/g+RmdNg2yz2DmFxP1povM2B2gkX/xvONYiRdciBxftSLVLMhu+j6/JbCtUvBSkPncrNL9BGhPyoyMt9IbT+Ag=="/>
+            <enclosure url="https://github.com/Beingpax/ZenFocus-App/releases/download/zenfocus/ZenFocus.dmg" length="3329113" type="application/octet-stream" sparkle:edSignature="OktpyxjyCTpQBuZ6bPnp0Hs+GSIh7km/BPjo+pRqHgfW93kuyTUDwQd4QxyK4ftywcgw0tVj65PTKz6FwA/EBA=="/>
             <sparkle:releaseNotes>
                 <section>
                     <title>Bug Fixes</title>
