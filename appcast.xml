@@ -5,17 +5,18 @@
         <item>
             <title>0.1.12</title>
             <pubDate>Sat, 14 Sep 2024 10:37:49 +0545</pubDate>
+            <sparkle:releaseNotes>
+                <![CDATA[
+                <ul>
+                    <li>Task animation not working fixed</li>
+                </ul>
+                ]]>
+            </sparkle:releaseNotes>
             <sparkle:version>113</sparkle:version>
             <sparkle:shortVersionString>0.1.12</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/Beingpax/ZenFocus-App/releases/download/v0.1.13/ZenFocus.dmg" length="3322569" type="application/octet-stream" sparkle:edSignature="XjxQdFhGAgghg82lnWV3NdGJIvCYn47jYFU9hoLPj2INOvvmVKbB9PFPPeEBqw7liNxv20pWuvjN1WEUK9teDA=="/>
-       <sparkle:releaseNotes>
-                <![CDATA[
-                <ul>
-                    <li>Fixed mouse interaction during animation view</li>
-                </ul>
-                ]]>
-            </sparkle:releaseNotes>
+       
         </item>
     </channel>
 </rss>
