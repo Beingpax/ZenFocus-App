@@ -4,13 +4,6 @@
         <title>ZenFocus</title>
         <item>
             <title>0.1.12</title>
-            <description>
-                <![CDATA[
-                <ul>
-                    <li>Fixed mouse interaction during animation view</li>
-                </ul>
-                ]]>
-            </description>
             <pubDate>Sat, 14 Sep 2024 10:37:49 +0545</pubDate>
             <sparkle:version>1</sparkle:version>
             <sparkle:shortVersionString>0.1.12</sparkle:shortVersionString>
