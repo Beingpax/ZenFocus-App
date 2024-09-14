@@ -3,25 +3,12 @@
     <channel>
         <title>ZenFocus</title>
         <item>
-            <title>0.1.1</title>
-            <pubDate>Fri, 13 Sep 2024 09:46:34 +0545</pubDate>
-            <sparkle:version>2</sparkle:version>
-            <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+            <title>0.1.12</title>
+            <pubDate>Sat, 14 Sep 2024 10:37:49 +0545</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>0.1.12</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/Beingpax/ZenFocus-App/releases/download/zenfocus/ZenFocus.dmg" length="3329113" type="application/octet-stream" sparkle:edSignature="/g+RmdNg2yz2DmFxP1povM2B2gkX/xvONYiRdciBxftSLVLMhu+j6/JbCtUvBSkPncrNL9BGhPyoyMt9IbT+Ag=="/>
-            <sparkle:releaseNotes>
-                <section>
-                    <title>Bug Fixes</title>
-                    <text>
-                        Fixed issues:
-                        <ul>
-                            <li>App now opens correctly after starting a focused session</li>
-                            <li>Progress view updates correctly after completing a task</li>
-                            <li>Task completion from task row now updates the focused task view</li>
-                        </ul>
-                    </text>
-                </section>
-            </sparkle:releaseNotes>
+            <enclosure url="https://github.com/Beingpax/ZenFocus-App/releases/download/V0.1.12/ZenFocus.dmg" length="3322569" type="application/octet-stream" sparkle:edSignature="36wMEr8U7xdgFRoWZ+G/lapYZUT0S17IoJVjCmBqtd3fpwisoHnI2vMopjgU0cPDP9ZF3kBwQ8IR3VSNAmlVAw=="/>
         </item>
     </channel>
 </rss>
