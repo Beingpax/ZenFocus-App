@@ -12,7 +12,7 @@
                 </ul>
                 ]]>
             </sparkle:releaseNotes>
-            <sparkle:version>113</sparkle:version>
+            
             <sparkle:shortVersionString>0.1.13</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/Beingpax/ZenFocus-App/releases/download/v0.1.13/ZenFocus.dmg" length="3322569" type="application/octet-stream" sparkle:edSignature="XjxQdFhGAgghg82lnWV3NdGJIvCYn47jYFU9hoLPj2INOvvmVKbB9PFPPeEBqw7liNxv20pWuvjN1WEUK9teDA=="/>
