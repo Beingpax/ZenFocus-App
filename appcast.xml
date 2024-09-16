@@ -4,7 +4,7 @@
         <title>ZenFocus</title>
         <item>
             <title>0.1.14</title>
-            <description><![CDATA[
+                <description><![CDATA[
                             <h2>What's New in Version 0.1.14:</h2>
                             <ul>
                                 <li>Automatically hide the main window after focus session starts</li>
@@ -14,11 +14,11 @@
                             <p>I hope you enjoy these updates!</p>
                             <p>Have a feature request or found a bug? <a href="https://zenfocus.featurebase.app/">Let us know here</a>!</p>
                         ]]></description>
-            <pubDate>Mon, 16 Sep 2024 20:03:23 +0545</pubDate>
+            <pubDate>Mon, 16 Sep 2024 22:31:21 +0545</pubDate>
             <sparkle:version>114</sparkle:version>
             <sparkle:shortVersionString>0.1.14</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/Beingpax/ZenFocus-App/releases/download/v0.1.14/ZenFocus.dmg" length="3335397" type="application/octet-stream" sparkle:edSignature="YznFca7dhV8asiaPNT3zYCeDy5QxepA7nmqIpXIKMYP9q61DBB07RgPWr/FvcgCfOhGGFWaANzcAUnVgCbevBQ=="/>
+            <enclosure url="https://beingpax.github.io/ZenFocus-App/ZenFocus.dmg" length="3353938" type="application/octet-stream" sparkle:edSignature="2b8bYS/PIi9/cvDL4+MzqzS0OCDOGPCuCrIZHnOO8PisHnDQaFmUEIvH5h6NydF3P1HIrQCnqPrIb8qXmZVCDg=="/>
         </item>
     </channel>
 </rss>
