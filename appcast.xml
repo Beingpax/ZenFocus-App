@@ -15,7 +15,7 @@
                             <p>Have a feature request or found a bug? <a href="https://zenfocus.featurebase.app/">Let us know here</a>!</p>
                         ]]></description>
             <pubDate>Mon, 16 Sep 2024 20:03:23 +0545</pubDate>
-            <sparkle:version>114</sparkle:version>
+            <sparkle:version>1</sparkle:version>
             <sparkle:shortVersionString>0.1.14</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/Beingpax/ZenFocus-App/releases/download/v0.1.14/ZenFocus.dmg" length="3335397" type="application/octet-stream" sparkle:edSignature="YznFca7dhV8asiaPNT3zYCeDy5QxepA7nmqIpXIKMYP9q61DBB07RgPWr/FvcgCfOhGGFWaANzcAUnVgCbevBQ=="/>
