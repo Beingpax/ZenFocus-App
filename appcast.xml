@@ -10,6 +10,8 @@
                                 <li>Automatically hide the main window after focus session starts</li>
                                 <li>Automatically open the main view after task completion</li>
                                 <li>Better category Auto-suggestion view</li>
+                                <li>Ability to delete completed tasks</li>
+                                <li>Edit Task Details like focused duration, title, etc.</li>
                             </ul>
                             <p>I hope you enjoy these updates!</p>
                             <p>Have a feature request or found a bug? <a href="https://zenfocus.featurebase.app/">Let us know here</a>!</p>
