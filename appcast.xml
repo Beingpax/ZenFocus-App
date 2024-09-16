@@ -5,15 +5,15 @@
         <item>
             <title>0.1.14</title>
             <description><![CDATA[
-                <h2>What's New in Version 0.1.14:</h2>
-                <ul>
-                    <li>Automatically hide the main window after focus session starts</li>
-                    <li>Automatically open the main view after task completion</li>
-                    <li>Better category Auto-suggestion view</li>
-                </ul>
-                <p>I hope you enjoy these updates!</p>
-                <p>Have a feature request or found a bug? <a href="https://zenfocus.featurebase.app/">Let us know here</a>!</p>
-            ]]></description>
+                            <h2>What's New in Version 0.1.14:</h2>
+                            <ul>
+                                <li>Automatically hide the main window after focus session starts</li>
+                                <li>Automatically open the main view after task completion</li>
+                                <li>Better category Auto-suggestion view</li>
+                            </ul>
+                            <p>I hope you enjoy these updates!</p>
+                            <p>Have a feature request or found a bug? <a href="https://zenfocus.featurebase.app/">Let us know here</a>!</p>
+                        ]]></description>
             <pubDate>Mon, 16 Sep 2024 20:03:23 +0545</pubDate>
             <sparkle:version>0.1.14</sparkle:version>
             <sparkle:shortVersionString>0.1.14</sparkle:shortVersionString>
