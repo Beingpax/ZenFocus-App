@@ -3,19 +3,22 @@
     <channel>
         <title>ZenFocus</title>
         <item>
-            <title>0.1.13</title>
-            <pubDate>Sat, 14 Sep 2024 10:37:49 +0545</pubDate>
-            <sparkle:releaseNotes>
-                <![CDATA[
+            <title>0.1.14</title>
+            <description><![CDATA[
+                <h2>What's New in Version 0.1.14:</h2>
                 <ul>
-                    <li>Task animation not working fixed</li>
+                    <li>Automatically hide the main window after focus session starts</li>
+                    <li>Automatically open the main view after task completion</li>
+                    <li>Better category Auto-suggestion view</li>
                 </ul>
-                ]]>
-            </sparkle:releaseNotes>
-            <sparkle:version>0.1.13</sparkle:version>
-            <sparkle:shortVersionString>0.1.13</sparkle:shortVersionString>
+                <p>I hope you enjoy these updates!</p>
+                <p>Have a feature request or found a bug? <a href="https://zenfocus.featurebase.app/">Let us know here</a>!</p>
+            ]]></description>
+            <pubDate>Sat, 16 Sep 2024 10:37:49 +0545</pubDate>
+            <sparkle:version>0.1.14</sparkle:version>
+            <sparkle:shortVersionString>0.1.14</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/Beingpax/ZenFocus-App/releases/download/v0.1.13/ZenFocus.dmg" length="3322569" type="application/octet-stream" sparkle:edSignature="XjxQdFhGAgghg82lnWV3NdGJIvCYn47jYFU9hoLPj2INOvvmVKbB9PFPPeEBqw7liNxv20pWuvjN1WEUK9teDA=="/>
+            <enclosure url="https://github.com/Beingpax/ZenFocus-App/releases/download/v0.1.14/ZenFocus.dmg" length="3322569" type="application/octet-stream" sparkle:edSignature="YznFca7dhV8asiaPNT3zYCeDy5QxepA7nmqIpXIKMYP9q61DBB07RgPWr/FvcgCfOhGGFWaANzcAUnVgCbevBQ=="/>
        
         </item>
     </channel>
