@@ -3,24 +3,32 @@
     <channel>
         <title>ZenFocus</title>
         <item>
-            <title>0.1.14</title>
-                <description><![CDATA[
-                            <h2>What's New in Version 0.1.14:</h2>
-                            <ul>
-                                <li>Automatically hide the main window after focus session starts</li>
-                                <li>Automatically open the main view after task completion</li>
-                                <li>Better category Auto-suggestion view</li>
-                                <li>Ability to delete completed tasks</li>
-                                <li>Edit Task Details like focused duration, title, etc.</li>
-                            </ul>
-                            <p>I hope you enjoy these updates!</p>
-                            <p>Have a feature request or found a bug? <a href="https://zenfocus.featurebase.app/">Let us know here</a>!</p>
-                        ]]></description>
-            <pubDate>Mon, 16 Sep 2024 22:31:21 +0545</pubDate>
-            <sparkle:version>114</sparkle:version>
-            <sparkle:shortVersionString>0.1.14</sparkle:shortVersionString>
+             <title>Version 0.2.0 - The Productivity Boost Update</title>
+            <description><![CDATA[
+                <h2>Exciting New Features in ZenFocus 0.2.0!</h2>
+                <p>I'm thrilled to announce a new big update, packed with features to supercharge your productivity and enhance your focus experience.</p>
+                
+                <h3>🎥 Watch the Update Overview</h3>
+                <p>See all the new features in action: <a href="https://www.youtube.com/watch?v=your_video_id">ZenFocus 0.2.0 Update Showcase</a></p>
+                
+                <h3>🚀 What's New:</h3>
+                <ul>
+                    <li><strong>Day Planning Feature:</strong> Start your day right by planning your tasks and goals.</li>
+                    <li><strong>Task Prioritization:</strong> Easily prioritize your daily tasks to stay focused on what matters most.</li>
+                    <li><strong>Daily Focus View:</strong> Get a clear overview of your day's objectives and progress.</li>
+                    <li><strong>Enhanced Category Suggestions:</strong> Larger, more intuitive category suggestions for quicker task organization.</li>
+                    <li><strong>Sleek Design Overhaul:</strong> Enjoy a refreshed, modern interface that's both beautiful and functional.</li>
+                    <li><strong>Fluid Animations:</strong> Experience smoother transitions and interactions throughout the app.</li>
+                </ul>
+                <p>I'm committed to making ZenFocus the best productivity tool. Enjoy the new features</p>
+                
+                <p>Have ideas or found a bug? <a href="https://discord.gg/7CUxnPMUQX/">Join Discord now to share what you feel</a> - I'm always listening!</p>
+            ]]></description>
+            <pubDate>Mon, 23 Sep 2024 09:33:05 +0545</pubDate>
+            <sparkle:version>200</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/Beingpax/ZenFocus-App/releases/download/v0.1.14/ZenFocus.dmg" length="3353938" type="application/octet-stream" sparkle:edSignature="jPDGheI70gVvtZc3OVClKyv6vh6SvZrku7TxKhfdq8AmxtjEEO1QgYqgnXq4X6DtmA0UIpDNpQWgkoCZZ8jRDA=="/>
+            <enclosure url="https://github.com/Beingpax/ZenFocus-App/releases/download/v0.2.0/ZenFocus.dmg" length="3643582" type="application/octet-stream" sparkle:edSignature="RCz6YWN9J/4mEZZjoXMB0FuVjQ5Fi+km6ifaMJanxczudMdkzE6lvvpw79zopU8T5lAU3WNrO/gFV81CzrNVAg=="/>
         </item>
     </channel>
 </rss>
