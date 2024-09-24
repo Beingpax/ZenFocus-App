@@ -22,7 +22,7 @@
             <sparkle:version>201</sparkle:version>
             <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/Beingpax/ZenFocus-App/releases/download/0.2.1/ZenFocus.dmg" length="3671975" type="application/octet-stream" sparkle:edSignature="OlIRxLSaNlNxn5MPWHLX/TjH+9qsh8NB4/BwS4HRXIFRu136S7pxG7A3Dr8tp52903/tPHvHjnGadlS9JW3ADg=="/>
+            <enclosure url="https://github.com/Beingpax/ZenFocus-App/releases/download/0.2.1/ZenFocus.dmg" length="3671975" type="application/octet-stream" sparkle:edSignature="2OcJ+EXk0hp/FGuNO9mBhMeilKXZUjxOZ9m/b3fX3TyyuuCaFnpazar6WjKWvVmMe1FjJr6Nl5URfDLNoRGMAw=="/>
         </item>
     </channel>
 </rss>
