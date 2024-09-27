@@ -18,11 +18,11 @@
                 </ul>
                 ]]>
             </description>
-            <pubDate>Tue, 24 Sep 2024 15:13:31 +0545</pubDate>
+            <pubDate>Sat, 28 Sep 2024 02:58:19 +0545</pubDate>
             <sparkle:version>201</sparkle:version>
             <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/Beingpax/ZenFocus-App/releases/download/0.2.1/ZenFocus.dmg" length="3671975" type="application/octet-stream" sparkle:edSignature="2OcJ+EXk0hp/FGuNO9mBhMeilKXZUjxOZ9m/b3fX3TyyuuCaFnpazar6WjKWvVmMe1FjJr6Nl5URfDLNoRGMAw=="/>
+            <enclosure url="https://beingpax.github.io/ZenFocus-App/ZenFocus.dmg" length="4242740" type="application/octet-stream" sparkle:edSignature="3d1z0IfzdqRh11XsGdbRLcYVGj9lAYMt+CLxXYyBzE2hyQ39E3rTiq4A95YHye5AmZJw2iooX8yRFhD5kQmwAQ=="/>
         </item>
     </channel>
 </rss>
