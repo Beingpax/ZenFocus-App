@@ -6,15 +6,15 @@
             <title>Version 0.2.1</title>
             <description>
                 <![CDATA[
-                <h2>Bug fixes</h2>
+                <h2>New Features</h2>
                 <ul>
-                    <li>Delete task not showing in main task list view</li>
+                    <li> Better Task Completion Animation View/li>
+                 <li>Displays next task in task completion animation view</li>
+                    <li>- Adds a option to take a break and start a new task</li>
+                    <li>Adds an option to take a break</li>
                 </ul>
-                <h2>Improvements</h2>
-                <ul>
-                    <li>Add a close icon in the category view</li>
-                    <li>Better category adding and editing view</li>
-                    <li>Added a custom color option for category</li>
+               
+                   
                 </ul>
                 ]]>
             </description>
