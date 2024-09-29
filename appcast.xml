@@ -6,21 +6,20 @@
             <title>Version 0.2.1</title>
             <description>
                 <![CDATA[
-                <h2>New Features</h2>
+                <h2>Improvements & Bug Fixess</h2>
                 <ul>
-                    <li> Better Task Completion Animation View</li>
-                 <li>Displays next task in task completion animation view</li>
-                    <li>Adds a option to take a break and start a new task</li>
-                    <li>Adds an option to take a break</li>
+                    <li>Fixed Bug with Daily Task views(Deleting task & Dragging Bug)</li>
+                     <li>Remove the completed tasks from today's view </li>
+                    <li>Added a two-way dragging feature in Daily Plan view</li>
                 </ul>
             
                 ]]>
             </description>
-            <pubDate>Sat, 28 Sep 2024 02:58:19 +0545</pubDate>
-            <sparkle:version>202</sparkle:version>
-            <sparkle:shortVersionString>0.2.2</sparkle:shortVersionString>
+            <pubDate>Sun, 29 Sep 2024 16:43:41 +0545</pubDate>
+            <sparkle:version>203</sparkle:version>
+            <sparkle:shortVersionString>0.2.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/Beingpax/ZenFocus-App/releases/download/v0.2.2/ZenFocus.dmg" length="4242740" type="application/octet-stream" sparkle:edSignature="3d1z0IfzdqRh11XsGdbRLcYVGj9lAYMt+CLxXYyBzE2hyQ39E3rTiq4A95YHye5AmZJw2iooX8yRFhD5kQmwAQ=="/>
+            <enclosure url="https://github.com/Beingpax/ZenFocus-App/releases/download/v0.2.3/ZenFocus.dmg" length="8180045" type="application/octet-stream" sparkle:edSignature="MDbVzsd2VsoiukPnJTFPldeWX9Cn+GyBQJT1TSkszozX8KCsMMsEHp9MIuy3EWBAJte2GnagJDcuU57zkERwAw=="/>
         </item>
     </channel>
 </rss>
