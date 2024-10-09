@@ -3,33 +3,6 @@
     <channel>
         <title>ZenFocus</title>
         <item>
-            <title>Version 0.2.1</title>
-            <description>
-                <![CDATA[
-                <h2>Improvements & Bug Fixess</h2>
-                <ul>
-                    <li>Fixed Bug with Daily Task views(Deleting task & Dragging Bug)</li>
-                     <li>Remove the completed tasks from today's view </li>
-                    <li>Added a two-way dragging feature in Daily Plan view</li>
-                </ul>
-            
-                ]]>
-            </description>
-            <pubDate>Sun, 29 Sep 2024 16:43:41 +0545</pubDate>
-            <sparkle:version>203</sparkle:version>
-            <sparkle:shortVersionString>0.2.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/Beingpax/ZenFocus-App/releases/download/v0.2.3/ZenFocus.dmg" length="8180045" type="application/octet-stream" sparkle:edSignature="MDbVzsd2VsoiukPnJTFPldeWX9Cn+GyBQJT1TSkszozX8KCsMMsEHp9MIuy3EWBAJte2GnagJDcuU57zkERwAw=="/>
-        </item>
-    </channel>
-</rss>
-
-
-<?xml version="1.0" standalone="yes"?>
-<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
-    <channel>
-        <title>ZenFocus</title>
-        <item>
             <title>0.2.4</title>
             <description>
                 <![CDATA[
