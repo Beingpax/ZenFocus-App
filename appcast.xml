@@ -2,25 +2,29 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>ZenFocus</title>
+
         <item>
-            <title>0.2.4</title>
-            <description>
-                <![CDATA[
-                <h2>New updates</h2>
+
+            <title>Version 0.2.5</title>
+            <description><![CDATA[
+                <h2>ZenFocus 0.2.5 Release Notes</h2>
+                
+                <h3>🌟 New Feature: Quick Add Tasks</h3>
                 <ul>
-                    <li>Better Day Planner View</li>
-                     <li>Kanban Column Type Schedular</li>
-                    <li>Ability to drag & reorder tasks in each column</li>
-                <li>More improvements and updates coming in next update</li>
+                    <li>Add tasks from anywhere in your Mac</li>
+                    <li>Streamline your workflow and capture tasks instantly</li>
                 </ul>
-            
-                ]]>
-            </description>
-            <pubDate>Wed, 09 Oct 2024 21:10:27 +0545</pubDate>
-            <sparkle:version>204</sparkle:version>
-            <sparkle:shortVersionString>0.2.4</sparkle:shortVersionString>
+                
+                <h3>🎥 See It In Action</h3>
+                <p>Watch a demo of the new Quick Add Tasks feature: <a href="https://discord.com/channels/1287791955463372811/1287791956084260972/1294637255926747159">View Demo</a></p>
+                
+            ]]></description>
+            <pubDate>Sun, 13 Oct 2024 12:00:00 +0545</pubDate>
+            <sparkle:version>205</sparkle:version>
+            <sparkle:shortVersionString>0.2.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/Beingpax/ZenFocus-App/releases/download/v0.2.4/ZenFocus.dmg" length="8419911" type="application/octet-stream" sparkle:edSignature="dIoLOwfbSBRffoFwNb2DvK7pLZYb/JcQlcnBHmfK004FoHfUZP3yDYvMIyVcwAFHJ7ZfG8G6NTyA9/uQw6GPAw=="/>
+            <enclosure url="https://github.com/Beingpax/ZenFocus-App/releases/download/v0.2.5/ZenFocus.dmg" length="8563071" type="application/octet-stream" sparkle:edSignature="EmavUWzyoXcJYcN+CMSA5+cBdrptn3/V6bGrdhqoCR+607NQeWG6S6GRX7yAVeP5RrqKI379nnRx3A5haMJCDg=="/>
+            
         </item>
     </channel>
 </rss>
