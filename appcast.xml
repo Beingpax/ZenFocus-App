@@ -2,29 +2,23 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>ZenFocus</title>
-
         <item>
-
             <title>Version 0.2.5</title>
             <description><![CDATA[
-                <h2>ZenFocus 0.2.5 Release Notes</h2>
-                
-                <h3>🌟 New Feature: Quick Add Tasks</h3>
+                <h2>ZenFocus 0.2.6 Release Notes</h2>
+                <h3>🌟 Bug fixes & Improvements </h3>
                 <ul>
-                    <li>Add tasks from anywhere in your Mac</li>
-                    <li>Streamline your workflow and capture tasks instantly</li>
+                    <li>Fixed quick add view not appearing on top of windows</li>
+                    <li>Fixed window size restoration</li>
                 </ul>
                 
-                <h3>🎥 See It In Action</h3>
-                <p>Watch a demo of the new Quick Add Tasks feature: <a href="https://discord.com/channels/1287791955463372811/1287791956084260972/1294637255926747159">View Demo</a></p>
                 
             ]]></description>
-            <pubDate>Sun, 13 Oct 2024 12:00:00 +0545</pubDate>
-            <sparkle:version>205</sparkle:version>
-            <sparkle:shortVersionString>0.2.5</sparkle:shortVersionString>
+            <pubDate>Tue, 22 Oct 2024 18:23:13 +0545</pubDate>
+            <sparkle:version>206</sparkle:version>
+            <sparkle:shortVersionString>0.2.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/Beingpax/ZenFocus-App/releases/download/v0.2.5/ZenFocus.dmg" length="8563071" type="application/octet-stream" sparkle:edSignature="EmavUWzyoXcJYcN+CMSA5+cBdrptn3/V6bGrdhqoCR+607NQeWG6S6GRX7yAVeP5RrqKI379nnRx3A5haMJCDg=="/>
-            
+            <enclosure url="https://github.com/Beingpax/ZenFocus-App/releases/download/v0.2.6/ZenFocus.dmg" length="8565584" type="application/octet-stream" sparkle:edSignature="0aGblvnP4C/qDLyPqarW8g64MvaKsEiOIJb/R618yFpy19j5vD39VTPakG1gMMnkhhMxrxBnvyiot3LGs35hDw=="/>
         </item>
     </channel>
 </rss>
