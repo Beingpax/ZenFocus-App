@@ -10,6 +10,7 @@
                 <ul>
                     <li>Fixed quick add view not appearing on top of windows</li>
                     <li>Fixed window size restoration</li>
+                    <li>Fixed Focused duration not updating properly</li>
                 </ul>
                 
                 
@@ -18,7 +19,7 @@
             <sparkle:version>206</sparkle:version>
             <sparkle:shortVersionString>0.2.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/Beingpax/ZenFocus-App/releases/download/v0.2.6/ZenFocus.dmg" length="8565584" type="application/octet-stream" sparkle:edSignature="0aGblvnP4C/qDLyPqarW8g64MvaKsEiOIJb/R618yFpy19j5vD39VTPakG1gMMnkhhMxrxBnvyiot3LGs35hDw=="/>
+            <enclosure url="https://github.com/Beingpax/ZenFocus-App/releases/download/v0.2.6/ZenFocus.dmg" length="8565584" type="application/octet-stream" sparkle:edSignature="ozNjbrdzziOXnHve1zQthBxejdF6foF1cOzaNnxxUUBR2jNtw2WqG/0F0IPYHCNslVMx7XS9oSimdW+IlGZaAg=="/>
         </item>
     </channel>
 </rss>
