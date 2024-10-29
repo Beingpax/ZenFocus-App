@@ -4,11 +4,11 @@
         <title>ZenFocus</title>
         <item>
             <title>0.2.7</title>
-            <pubDate>Tue, 29 Oct 2024 13:43:31 +0545</pubDate>
-            <sparkle:version>207</sparkle:version>
+            <pubDate>Tue, 29 Oct 2024 13:32:49 +0545</pubDate>
+            <sparkle:version>206</sparkle:version>
             <sparkle:shortVersionString>0.2.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/Beingpax/ZenFocus-App/releases/download/v0.2.7/ZenFocus.dmg" length="4681140" type="application/octet-stream" sparkle:edSignature="hTxs3QjuXlbdvW+4bAuUjUSCkQsgoTakOIuqHw6656S6Oyzm6SiD3RnjDHILuZiSx27y9GjY6IeVJC9gY8sfAg=="/>
+            <enclosure url="https://beingpax.github.io/ZenFocus-App/ZenFocus.dmg" length="4681084" type="application/octet-stream" sparkle:edSignature="XdcKoH40E+pvrnS5bgARICzWlNDS93QiBRC+3YLMOsEzg8a4BvsTCc8kFj8MJ/xahzKwFJwbaVD2hfZ9nc7+BQ=="/>
         </item>
     </channel>
 </rss>
