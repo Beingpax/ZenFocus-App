@@ -3,12 +3,34 @@
     <channel>
         <title>ZenFocus</title>
         <item>
-            <title>0.2.7</title>
-            <pubDate>Tue, 29 Oct 2024 13:32:49 +0545</pubDate>
-            <sparkle:version>206</sparkle:version>
-            <sparkle:shortVersionString>0.2.7</sparkle:shortVersionString>
+            <title>0.2.9</title>
+            <pubDate>Thu, 31 Oct 2024 17:01:29 +0545</pubDate>
+            <sparkle:version>209</sparkle:version>
+            <sparkle:shortVersionString>0.2.9</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/Beingpax/ZenFocus-App/releases/download/v0.2.7/ZenFocus.dmg" length="4681084" type="application/octet-stream" sparkle:edSignature="XdcKoH40E+pvrnS5bgARICzWlNDS93QiBRC+3YLMOsEzg8a4BvsTCc8kFj8MJ/xahzKwFJwbaVD2hfZ9nc7+BQ=="/>
+            <description><![CDATA[
+                <h2>🎉 New Features</h2>
+                <ul>
+                    <li><strong>Two-Level Hierarchy Support!</strong> - Organize your tasks with enhanced structure using our new two-level hierarchy system.</li>
+                <li><strong>Better Stats View</strong> - Supports stats for both parent and child categories for better overview of where your time is being spent. </li>
+                </ul>
+
+                <h3>⚠️ Important Migration Note</h3>
+                <p>To take advantage of the new hierarchy feature, you'll need to migrate your existing data to the new format. The app will guide you through this process during the first launch.</p>
+
+                <h2>🛠️ Bug Fixes & Improvements</h2>
+                <ul>
+                    <li>Fixed stats view not updating properly</li>
+                    <li>Resolved inconsistencies in completed task history view</li>
+                    <li>Enhanced task editing stability and consistency</li>
+                </ul>
+
+                <h2>🤝 Community & Feedback</h2>
+                <p>Join our growing community! Share your thoughts, get insights on upcoming features, or suggest improvements in our <a href="https://discord.gg/bJUxA9EV">Discord channel</a>.</p>
+
+        
+            ]]></description>
+            <enclosure url="https://github.com/Beingpax/ZenFocus-App/releases/download/v0.2.9/ZenFocus.dmg" length="4811289" type="application/octet-stream" sparkle:edSignature="g5A7+B9P5DwVK2FyR4Em47toO0bwNrP1RVvnn7c7X+Enfy+GwEPxPvkzEeohgbUEAV0L2vSGUCYmKMlpedRyCw=="/>
         </item>
     </channel>
 </rss>
