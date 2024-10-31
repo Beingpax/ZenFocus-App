@@ -5,8 +5,8 @@
         <item>
             <title>0.2.9</title>
             <pubDate>Thu, 31 Oct 2024 17:01:29 +0545</pubDate>
-            <sparkle:version>206</sparkle:version>
-            <sparkle:shortVersionString>0.2.6</sparkle:shortVersionString>
+            <sparkle:version>209</sparkle:version>
+            <sparkle:shortVersionString>0.2.9</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
                 <h2>🎉 New Features</h2>
@@ -30,7 +30,7 @@
 
         
             ]]></description>
-            <enclosure url="https://github.com/Beingpax/ZenFocus-App/releases/download/v0.2.9/ZenFocus.dmg" length="4811289" type="application/octet-stream" sparkle:edSignature="g5A7+B9P5DwVK2FyR4Em47toO0bwNrP1RVvnn7c7X+Enfy+GwEPxPvkzEeohgbUEAV0L2vSGUCYmKMlpedRyCw=="/>
+            <enclosure url="https://github.com/Beingpax/ZenFocus-App/releases/download/v0.2.9/ZenFocus.dmg" length="4813030" type="application/octet-stream" sparkle:edSignature="jlIikq57mqEefJ6FsufJayUvmVModtZYhWGWD+dMPyESajBCQjQpvQReGrBBp8uHPJEgZiYe0kFQ8nHsIDvBDA=="/>
         </item>
     </channel>
 </rss>
