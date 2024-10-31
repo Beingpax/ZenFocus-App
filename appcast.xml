@@ -5,8 +5,8 @@
         <item>
             <title>0.2.9</title>
             <pubDate>Thu, 31 Oct 2024 17:01:29 +0545</pubDate>
-            <sparkle:version>209</sparkle:version>
-            <sparkle:shortVersionString>0.2.9</sparkle:shortVersionString>
+            <sparkle:version>206</sparkle:version>
+            <sparkle:shortVersionString>0.2.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
                 <h2>🎉 New Features</h2>
