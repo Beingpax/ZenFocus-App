@@ -3,13 +3,22 @@
     <channel>
         <title>ZenFocus</title>
         <item>
-            <title>0.2.9</title>
+            <title>ZenFocus Changelogs</title>
             <pubDate>Thu, 31 Oct 2024 17:01:29 +0545</pubDate>
-            <sparkle:version>209</sparkle:version>
-            <sparkle:shortVersionString>0.2.9</sparkle:shortVersionString>
+            <sparkle:version>300</sparkle:version>
+            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
-                <h2>🎉 New Features</h2>
+                <h2>🎉 v0.3.0 New Features</h2>
+                 <ul>
+                    <li><strong>Add Scheduled date to tasks!</strong> - Add scheduled dates to your tasks using @ as a trigger. </li>
+                <li><strong>Add Category</strong> - Instead of using @ for category, use # now(since @ is used for scheduled date. </li>
+                <li><strong>Removed direct focus start session</strong> - Now you have to properly plan your day and prioritize your tasks in order to start a focus session. </li>
+                </ul>
+
+
+                
+                <h2>🎉 v0.2.9 New Features</h2>
                 <ul>
                     <li><strong>Two-Level Hierarchy Support!</strong> - Organize your tasks with enhanced structure using our new two-level hierarchy system.</li>
                 <li><strong>Better Stats View</strong> - Supports stats for both parent and child categories for better overview of where your time is being spent. </li>
@@ -30,7 +39,7 @@
 
         
             ]]></description>
-            <enclosure url="https://github.com/Beingpax/ZenFocus-App/releases/download/v0.2.9/ZenFocus.dmg" length="4813030" type="application/octet-stream" sparkle:edSignature="+pcbu8XFL6r3C6W8y2dJa//q7No2tXakaEU7vgps2kekP98mh7SOmLGA2N+6r66GNFev5j8iIrtwnZzhLTNQCw=="/>
+            <enclosure url="https://github.com/Beingpax/ZenFocus-App/releases/download/v0.3.0/Zenfocus.dmg" length="4813030" type="application/octet-stream" sparkle:edSignature="1hI+FuYs9yZG94DSlM2QYoHAQkC8nLFjW5mloV56ZTmy0lgEYhEtaj1gc9wswUNL4yawvdkuCrmMgKVm9ZzBBg=="/>
         </item>
     </channel>
 </rss>
