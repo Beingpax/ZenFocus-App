@@ -9,14 +9,23 @@
             <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
+                <h2>🎉 v0.3.1 New Features</h2>
+                 <ul>
+                    <li><strong>Start your focus session directly</strong> - Brought back the feature to start a focus session directly. </li>
+                <li><strong>Removed focus start animation</strong> - Now, you can configure whether you want to see the focus start animation or not via the settings. </li>
+                <li><strong>Focuse session break</strong> - Go into break mode even without completing the task. Just press the pause button in the mini task view. </li>
+                <li><strong>Join Discord</strong> - To get a full overview of changes, join our discord community from the settings. </li>
+                </ul>
+                
+                
+                
+                
                 <h2>🎉 v0.3.0 New Features</h2>
                  <ul>
                     <li><strong>Add Scheduled date to tasks!</strong> - Add scheduled dates to your tasks using @ as a trigger. </li>
                 <li><strong>Add Category</strong> - Instead of using @ for category, use # now(since @ is used for scheduled date. </li>
                 <li><strong>Removed direct focus start session</strong> - Now you have to properly plan your day and prioritize your tasks in order to start a focus session. </li>
                 </ul>
-
-
                 
                 <h2>🎉 v0.2.9 New Features</h2>
                 <ul>
@@ -39,7 +48,7 @@
 
         
             ]]></description>
-            <enclosure url="https://github.com/Beingpax/ZenFocus-App/releases/download/v0.3.0/Zenfocus.dmg" length="4813030" type="application/octet-stream" sparkle:edSignature="1hI+FuYs9yZG94DSlM2QYoHAQkC8nLFjW5mloV56ZTmy0lgEYhEtaj1gc9wswUNL4yawvdkuCrmMgKVm9ZzBBg=="/>
+            <enclosure url="https://beingpax.github.io/ZenFocus-App/ZenFocus.dmg" length="4977992" type="application/octet-stream" sparkle:edSignature="VZ/ANGj9IaCb+2sd9G2xsLmhejKVOTDMpw75XD9qOY1H3bd34lF5gl1uvtxmi7vkvemQg8zHuqZofvy+N3xoBA=="/>
         </item>
     </channel>
 </rss>
