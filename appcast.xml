@@ -11,6 +11,7 @@
             <description><![CDATA[
                 <h2>🎉 v0.3.1 New Features</h2>
                  <ul>
+                <li><strong>Edit your tasks </strong> - Now you can edit tasks, add category, and due date directly from the editing view. </li>
                     <li><strong>Start your focus session directly</strong> - Brought back the feature to start a focus session directly. </li>
                 <li><strong>Removed focus start animation</strong> - Now, you can configure whether you want to see the focus start animation or not via the settings. </li>
                 <li><strong>Focuse session break</strong> - Go into break mode even without completing the task. Just press the pause button in the mini task view. </li>
