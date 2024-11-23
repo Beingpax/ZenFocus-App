@@ -5,8 +5,8 @@
         <item>
             <title>ZenFocus Changelogs</title>
             <pubDate>Thu, 31 Oct 2024 17:01:29 +0545</pubDate>
-            <sparkle:version>300</sparkle:version>
-            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+            <sparkle:version>301</sparkle:version>
+            <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
                 <h2>🎉 v0.3.1 New Features</h2>
@@ -48,7 +48,7 @@
 
         
             ]]></description>
-            <enclosure url="https://beingpax.github.io/ZenFocus-App/ZenFocus.dmg" length="4977992" type="application/octet-stream" sparkle:edSignature="VZ/ANGj9IaCb+2sd9G2xsLmhejKVOTDMpw75XD9qOY1H3bd34lF5gl1uvtxmi7vkvemQg8zHuqZofvy+N3xoBA=="/>
+            <enclosure url="https://github.com/Beingpax/ZenFocus-App/releases/download/v0.3.1/ZenFocus.dmg" length="4977992" type="application/octet-stream" sparkle:edSignature="VZ/ANGj9IaCb+2sd9G2xsLmhejKVOTDMpw75XD9qOY1H3bd34lF5gl1uvtxmi7vkvemQg8zHuqZofvy+N3xoBA=="/>
         </item>
     </channel>
 </rss>
