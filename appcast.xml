@@ -9,6 +9,14 @@
             <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
+<h2>🎉 v0.3.2 New Features</h2>
+                 <ul>
+                <li>Added the option to let the user hide that focus session pause screen. </li>
+                    <li>Fixed auto play music setting not being applied properly </li>
+
+                </ul>
+
+                
                 <h2>🎉 v0.3.1 New Features</h2>
                  <ul>
                 <li><strong>Edit your tasks </strong> - Now you can edit tasks, add category, and due date directly from the editing view. </li>
@@ -49,7 +57,7 @@
 
         
             ]]></description>
-            <enclosure url="https://github.com/Beingpax/ZenFocus-App/releases/download/v0.3.1/ZenFocus.dmg" length="4977992" type="application/octet-stream" sparkle:edSignature="VZ/ANGj9IaCb+2sd9G2xsLmhejKVOTDMpw75XD9qOY1H3bd34lF5gl1uvtxmi7vkvemQg8zHuqZofvy+N3xoBA=="/>
+            <enclosure url="https://github.com/Beingpax/ZenFocus-App/releases/download/v0.3.2/ZenFocus.dmg" length="4982775" type="application/octet-stream" sparkle:edSignature="Kudhisgj670Bh6/EyB+uoJ3eS5iZZAjLVn5IHwcwgA5lg8bc9XO5qyaUYpr2AZ+y4mm1tmdKQO5uHPB6xRWzDw=="/>
         </item>
     </channel>
 </rss>
