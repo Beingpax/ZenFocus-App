@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 70;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E14609EB2CA7363B00E91EAD /* AmplitudeSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E14609EA2CA7363B00E91EAD /* AmplitudeSwift */; };
+		E197C6942CB91EA00047E1DF /* KeyboardShortcuts in Frameworks */ = {isa = PBXBuildFile; productRef = E197C6932CB91EA00047E1DF /* KeyboardShortcuts */; };
+		E1EE083B2C8C70D300EF62D5 /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = E1EE083A2C8C70D300EF62D5 /* Sparkle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E13FEEFA2C88574E00202963 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E13FEEE02C88574D00202963 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E13FEEE72C88574D00202963;
+			remoteInfo = ZenFocus;
+		};
+		E13FEF042C88574E00202963 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E13FEEE02C88574D00202963 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E13FEEE72C88574D00202963;
+			remoteInfo = ZenFocus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E13FEEE82C88574D00202963 /* ZenFocus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZenFocus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E13FEEF92C88574E00202963 /* ZenFocusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZenFocusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E13FEF032C88574E00202963 /* ZenFocusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZenFocusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E1EE083D2C8C717D00EF62D5 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Category+CoreDataClass.swift",
+				"Category+CoreDataProperties.swift",
+				Info.plist,
+			);
+			target = E13FEEE72C88574D00202963 /* ZenFocus */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E13FEEEA2C88574D00202963 /* ZenFocus */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (E1EE083D2C8C717D00EF62D5 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = ZenFocus; sourceTree = "<group>"; };
+		E13FEEFC2C88574E00202963 /* ZenFocusTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ZenFocusTests; sourceTree = "<group>"; };
+		E13FEF062C88574E00202963 /* ZenFocusUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ZenFocusUITests; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E13FEEE52C88574D00202963 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E14609EB2CA7363B00E91EAD /* AmplitudeSwift in Frameworks */,
+				E1EE083B2C8C70D300EF62D5 /* Sparkle in Frameworks */,
+				E197C6942CB91EA00047E1DF /* KeyboardShortcuts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E13FEEF62C88574E00202963 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E13FEF002C88574E00202963 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E13FEEDF2C88574D00202963 = {
+			isa = PBXGroup;
+			children = (
+				E13FEEEA2C88574D00202963 /* ZenFocus */,
+				E13FEEFC2C88574E00202963 /* ZenFocusTests */,
+				E13FEF062C88574E00202963 /* ZenFocusUITests */,
+				E13FEEE92C88574D00202963 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E13FEEE92C88574D00202963 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E13FEEE82C88574D00202963 /* ZenFocus.app */,
+				E13FEEF92C88574E00202963 /* ZenFocusTests.xctest */,
+				E13FEF032C88574E00202963 /* ZenFocusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E13FEEE72C88574D00202963 /* ZenFocus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E13FEF0D2C88574E00202963 /* Build configuration list for PBXNativeTarget "ZenFocus" */;
+			buildPhases = (
+				E13FEEE42C88574D00202963 /* Sources */,
+				E13FEEE52C88574D00202963 /* Frameworks */,
+				E13FEEE62C88574D00202963 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E13FEEEA2C88574D00202963 /* ZenFocus */,
+			);
+			name = ZenFocus;
+			packageProductDependencies = (
+				E1EE083A2C8C70D300EF62D5 /* Sparkle */,
+				E14609EA2CA7363B00E91EAD /* AmplitudeSwift */,
+				E197C6932CB91EA00047E1DF /* KeyboardShortcuts */,
+			);
+			productName = ZenFocus;
+			productReference = E13FEEE82C88574D00202963 /* ZenFocus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E13FEEF82C88574E00202963 /* ZenFocusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E13FEF102C88574E00202963 /* Build configuration list for PBXNativeTarget "ZenFocusTests" */;
+			buildPhases = (
+				E13FEEF52C88574E00202963 /* Sources */,
+				E13FEEF62C88574E00202963 /* Frameworks */,
+				E13FEEF72C88574E00202963 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E13FEEFB2C88574E00202963 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E13FEEFC2C88574E00202963 /* ZenFocusTests */,
+			);
+			name = ZenFocusTests;
+			packageProductDependencies = (
+			);
+			productName = ZenFocusTests;
+			productReference = E13FEEF92C88574E00202963 /* ZenFocusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E13FEF022C88574E00202963 /* ZenFocusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E13FEF132C88574E00202963 /* Build configuration list for PBXNativeTarget "ZenFocusUITests" */;
+			buildPhases = (
+				E13FEEFF2C88574E00202963 /* Sources */,
+				E13FEF002C88574E00202963 /* Frameworks */,
+				E13FEF012C88574E00202963 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E13FEF052C88574E00202963 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E13FEF062C88574E00202963 /* ZenFocusUITests */,
+			);
+			name = ZenFocusUITests;
+			packageProductDependencies = (
+			);
+			productName = ZenFocusUITests;
+			productReference = E13FEF032C88574E00202963 /* ZenFocusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E13FEEE02C88574D00202963 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					E13FEEE72C88574D00202963 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					E13FEEF82C88574E00202963 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = E13FEEE72C88574D00202963;
+					};
+					E13FEF022C88574E00202963 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = E13FEEE72C88574D00202963;
+					};
+				};
+			};
+			buildConfigurationList = E13FEEE32C88574D00202963 /* Build configuration list for PBXProject "ZenFocus" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E13FEEDF2C88574D00202963;
+			packageReferences = (
+				E1EE08392C8C70D300EF62D5 /* XCRemoteSwiftPackageReference "Sparkle" */,
+				E14609E92CA7363B00E91EAD /* XCRemoteSwiftPackageReference "Amplitude-Swift" */,
+				E197C6922CB91EA00047E1DF /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */,
+			);
+			productRefGroup = E13FEEE92C88574D00202963 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E13FEEE72C88574D00202963 /* ZenFocus */,
+				E13FEEF82C88574E00202963 /* ZenFocusTests */,
+				E13FEF022C88574E00202963 /* ZenFocusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E13FEEE62C88574D00202963 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E13FEEF72C88574E00202963 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E13FEF012C88574E00202963 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E13FEEE42C88574D00202963 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E13FEEF52C88574E00202963 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E13FEEFF2C88574E00202963 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E13FEEFB2C88574E00202963 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E13FEEE72C88574D00202963 /* ZenFocus */;
+			targetProxy = E13FEEFA2C88574E00202963 /* PBXContainerItemProxy */;
+		};
+		E13FEF052C88574E00202963 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E13FEEE72C88574D00202963 /* ZenFocus */;
+			targetProxy = E13FEF042C88574E00202963 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E13FEF0B2C88574E00202963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E13FEF0C2C88574E00202963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E13FEF0E2C88574E00202963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ZenFocus/ZenFocus.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 302;
+				DEVELOPMENT_ASSET_PATHS = "\"ZenFocus/Preview Content\"";
+				DEVELOPMENT_TEAM = V6J6A3VWY2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZenFocus/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.3.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prakashjoshipax.ZenFocus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E13FEF0F2C88574E00202963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ZenFocus/ZenFocus.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 302;
+				DEVELOPMENT_ASSET_PATHS = "\"ZenFocus/Preview Content\"";
+				DEVELOPMENT_TEAM = V6J6A3VWY2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZenFocus/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.3.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prakashjoshipax.ZenFocus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E13FEF112C88574E00202963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6J6A3VWY2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prakashjoshipax.ZenFocusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZenFocus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZenFocus";
+			};
+			name = Debug;
+		};
+		E13FEF122C88574E00202963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6J6A3VWY2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prakashjoshipax.ZenFocusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZenFocus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZenFocus";
+			};
+			name = Release;
+		};
+		E13FEF142C88574E00202963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6J6A3VWY2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prakashjoshipax.ZenFocusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ZenFocus;
+			};
+			name = Debug;
+		};
+		E13FEF152C88574E00202963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6J6A3VWY2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prakashjoshipax.ZenFocusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ZenFocus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E13FEEE32C88574D00202963 /* Build configuration list for PBXProject "ZenFocus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E13FEF0B2C88574E00202963 /* Debug */,
+				E13FEF0C2C88574E00202963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E13FEF0D2C88574E00202963 /* Build configuration list for PBXNativeTarget "ZenFocus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E13FEF0E2C88574E00202963 /* Debug */,
+				E13FEF0F2C88574E00202963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E13FEF102C88574E00202963 /* Build configuration list for PBXNativeTarget "ZenFocusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E13FEF112C88574E00202963 /* Debug */,
+				E13FEF122C88574E00202963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E13FEF132C88574E00202963 /* Build configuration list for PBXNativeTarget "ZenFocusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E13FEF142C88574E00202963 /* Debug */,
+				E13FEF152C88574E00202963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E14609E92CA7363B00E91EAD /* XCRemoteSwiftPackageReference "Amplitude-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/amplitude/Amplitude-Swift";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		E197C6922CB91EA00047E1DF /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/KeyboardShortcuts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.0;
+			};
+		};
+		E1EE08392C8C70D300EF62D5 /* XCRemoteSwiftPackageReference "Sparkle" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sparkle-project/Sparkle";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.6.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E14609EA2CA7363B00E91EAD /* AmplitudeSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E14609E92CA7363B00E91EAD /* XCRemoteSwiftPackageReference "Amplitude-Swift" */;
+			productName = AmplitudeSwift;
+		};
+		E197C6932CB91EA00047E1DF /* KeyboardShortcuts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E197C6922CB91EA00047E1DF /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */;
+			productName = KeyboardShortcuts;
+		};
+		E1EE083A2C8C70D300EF62D5 /* Sparkle */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1EE08392C8C70D300EF62D5 /* XCRemoteSwiftPackageReference "Sparkle" */;
+			productName = Sparkle;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E13FEEE02C88574D00202963 /* Project object */;
+}
