@@ -4,12 +4,19 @@ import Sparkle
 import AppKit
 
 struct PreferenceView: View {
-    @EnvironmentObject var appDelegate: AppDelegate
-    @EnvironmentObject var analyticsService: AnalyticsService
-    @State private var selectedSection: PreferenceSection = .settings
-    @State private var hoveredSection: PreferenceSection?
-    @Environment(\.colorScheme) private var colorScheme
-    @Namespace private var animation
+    @Environment(\.managedObjectContext) private var viewContext
+    @AppStorage("dailyGoalMinutes") private var dailyGoalMinutes: Int = 120
+    @AppStorage("breakDuration") private var breakDuration: Int = 5
+    @AppStorage("longBreakDuration") private var longBreakDuration: Int = 15
+    @AppStorage("sessionsUntilLongBreak") private var sessionsUntilLongBreak: Int = 4
+    @AppStorage("autoStartBreak") private var autoStartBreak: Bool = false
+    @AppStorage("autoStartNextSession") private var autoStartNextSession: Bool = false
+    @AppStorage("playBreakSound") private var playBreakSound: Bool = true
+    @AppStorage("playFocusSound") private var playFocusSound: Bool = true
+    @AppStorage("playTaskCompleteSound") private var playTaskCompleteSound: Bool = true
+    @AppStorage("breakSoundVolume") private var breakSoundVolume: Double = 0.5
+    @AppStorage("focusSoundVolume") private var focusSoundVolume: Double = 0.5
+    @AppStorage("taskCompleteSoundVolume") private var taskCompleteSoundVolume: Double = 0.5
     
     enum PreferenceSection: String, CaseIterable, Identifiable {
         case settings = "General"

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E14609EB2CA7363B00E91EAD /* AmplitudeSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E14609EA2CA7363B00E91EAD /* AmplitudeSwift */; };
 		E197C6942CB91EA00047E1DF /* KeyboardShortcuts in Frameworks */ = {isa = PBXBuildFile; productRef = E197C6932CB91EA00047E1DF /* KeyboardShortcuts */; };
 		E1EE083B2C8C70D300EF62D5 /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = E1EE083A2C8C70D300EF62D5 /* Sparkle */; };
 /* End PBXBuildFile section */
@@ -58,7 +57,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E14609EB2CA7363B00E91EAD /* AmplitudeSwift in Frameworks */,
 				E1EE083B2C8C70D300EF62D5 /* Sparkle in Frameworks */,
 				E197C6942CB91EA00047E1DF /* KeyboardShortcuts in Frameworks */,
 			);
@@ -122,7 +120,6 @@
 			name = ZenFocus;
 			packageProductDependencies = (
 				E1EE083A2C8C70D300EF62D5 /* Sparkle */,
-				E14609EA2CA7363B00E91EAD /* AmplitudeSwift */,
 				E197C6932CB91EA00047E1DF /* KeyboardShortcuts */,
 			);
 			productName = ZenFocus;
@@ -209,7 +206,6 @@
 			mainGroup = E13FEEDF2C88574D00202963;
 			packageReferences = (
 				E1EE08392C8C70D300EF62D5 /* XCRemoteSwiftPackageReference "Sparkle" */,
-				E14609E92CA7363B00E91EAD /* XCRemoteSwiftPackageReference "Amplitude-Swift" */,
 				E197C6922CB91EA00047E1DF /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */,
 			);
 			productRefGroup = E13FEEE92C88574D00202963 /* Products */;
