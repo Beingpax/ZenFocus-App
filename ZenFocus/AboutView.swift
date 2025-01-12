@@ -6,7 +6,6 @@ struct AboutView: View {
     let updater: SPUUpdater
     @AppStorage("launchCount") private var launchCount = 0
     @AppStorage("firstLaunchDate") private var firstLaunchDate: Double = Date().timeIntervalSince1970
-    @EnvironmentObject private var analyticsService: AnalyticsService
 
     var body: some View {
         ScrollView {

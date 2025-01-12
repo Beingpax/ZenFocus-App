@@ -17,8 +17,6 @@ struct MainView: View {
     @State private var isDayPlanned: Bool = false
     @AppStorage("firstLaunchDate") private var firstLaunchDate: Double = Date().timeIntervalSince1970
     @AppStorage("launchCount") private var launchCount = 0
-    @EnvironmentObject private var analyticsService: AnalyticsService
-
     enum ViewType: String, CaseIterable {
         case tasks = "Tasks"
         case kanbanBoard = "Day Plan"  

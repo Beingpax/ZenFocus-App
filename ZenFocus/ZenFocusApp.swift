@@ -19,7 +19,6 @@ extension KeyboardShortcuts.Name {
 struct ZenFocusApp: App {
     @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     @StateObject private var appState = AppState()
-    @StateObject private var analyticsService = AnalyticsService()
     @StateObject private var quickAddManager = QuickAddManager()
     let persistenceController = PersistenceController.shared
 
@@ -29,16 +28,13 @@ struct ZenFocusApp: App {
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
                 .environmentObject(appState)
                 .environmentObject(appDelegate)
-                .environmentObject(analyticsService)
                 .environmentObject(quickAddManager)
                 .onAppear {
-                    analyticsService.trackAppLaunch() 
                     checkAndTrackAppUpdate()
                     setupQuickAddManager()
                     setupQuickAddShortcut()
                     setupWindowDelegate()
                 }
-                .onDisappear { analyticsService.trackAppClose() }
         }
         .commands {
             CommandGroup(after: .appSettings) {
@@ -80,7 +76,6 @@ struct ZenFocusApp: App {
         let lastVersion = UserDefaults.standard.string(forKey: "LastAppVersion") ?? "Unknown"
 
         if currentVersion != lastVersion {
-            analyticsService.trackAppUpdate(from: lastVersion, to: currentVersion)
             UserDefaults.standard.set(currentVersion, forKey: "LastAppVersion")
         }
     }
@@ -100,7 +95,6 @@ class AppDelegate: NSObject, ObservableObject, NSApplicationDelegate, NSWindowDe
     @Published var isShowingPreferences = false
     private var preferencesWindow: NSWindow?
     let updaterController: SPUStandardUpdaterController
-    @Published var analyticsService = AnalyticsService()
     @Published var quickAddManager: QuickAddManager?
     @Published var categoryManager: CategoryManager
     
@@ -109,7 +103,6 @@ class AppDelegate: NSObject, ObservableObject, NSApplicationDelegate, NSWindowDe
         let viewContext = PersistenceController.shared.container.viewContext
         categoryManager = CategoryManager(viewContext: viewContext)
         super.init()
-        analyticsService.configure()
         self.quickAddManager = QuickAddManager()
     }
     
@@ -117,9 +110,7 @@ class AppDelegate: NSObject, ObservableObject, NSApplicationDelegate, NSWindowDe
         performHealthCheck()
         updaterController.updater.checkForUpdatesInBackground()
         
-        if analyticsService.isEnabled {
-            analyticsService.trackAppLaunch()
-        }
+        
         
         setupQuickAddManager()
         
@@ -143,9 +134,6 @@ class AppDelegate: NSObject, ObservableObject, NSApplicationDelegate, NSWindowDe
     }
     
     func applicationWillTerminate(_ notification: Notification) {
-        if analyticsService.isEnabled {
-            analyticsService.trackAppClose()
-        }
         
         if let window = NSApplication.shared.windows.first {
             saveWindowState(window)
@@ -163,7 +151,6 @@ class AppDelegate: NSObject, ObservableObject, NSApplicationDelegate, NSWindowDe
     private func createAndShowPreferencesWindow() {
         let preferencesView = PreferenceView()
             .environmentObject(self)
-            .environmentObject(analyticsService)
             .environment(\.managedObjectContext, PersistenceController.shared.container.viewContext)
         
         let controller = NSHostingController(rootView: preferencesView)
@@ -241,7 +228,6 @@ class AppDelegate: NSObject, ObservableObject, NSApplicationDelegate, NSWindowDe
     
     private func sendErrorReport(description: String) {
         os_log("User reported problem: %{public}@", log: .default, type: .error, description)
-        analyticsService.trackEvent("problem_reported", properties: ["description": description])
         
         showConfirmationAlert()
     }
